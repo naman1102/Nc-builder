@@ -6657,7 +6657,7 @@ del {
 
 .single-offered:hover {
   cursor: pointer;
-  background-color: #FF5E14;
+  background-color: rgba(255,94,20,0.7);
 }
 
 .single-offered:hover p {
@@ -6682,4 +6682,72 @@ del {
   }
 }
 
+.facts-area {
+  background-color: rgb(255,94,20);
+}
+
+.single-fact h1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+}
+
+.single-fact p {
+  color: white;
+}
+
+.service-area .header-text {
+  text-align: center;
+}
+
+.service-area .header-text h1 {
+  margin-bottom: 20px;
+}
+
+.single-service {
+  background-color: #f9f9ff;
+  padding: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.single-service:hover {
+  box-shadow: -14.142px 14.142px 20px 0px rgba(157, 157, 157, 0.5);
+  cursor: pointer;
+  background-color: rgba(255,94,20,0.7);
+}
+
+.single-service:hover p {
+  color: #222;
+}
+
+.single-service h4 {
+  font-size: 18px;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.single-service h4 .lnr {
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+@media (max-width: 991.98px) {
+  .single-service {
+    margin-bottom: 60px;
+  }
+}
+
+.single-fact{
+  text-align: center !important;
+  margin: 5px !important;
+  padding: 5px !important;
+}
 /* service-page end */
