@@ -10,7 +10,7 @@
             e.preventDefault(); // prevent default form submit
 
             $.ajax({
-                url: 'https://api.apispreadsheets.com/data/21083/', // form action url
+                url: 'https://api.apispreadsheets.com/data/WvrwClLIsr42PEHp/', // form action url
                 type: 'POST', // form submit method get/post
                 dataType: 'html', // request type html/json/xml
                 data: form.serialize(), // serialize form data
