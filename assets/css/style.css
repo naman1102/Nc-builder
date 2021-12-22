@@ -19,7 +19,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 /* line 38, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_color.scss */
 .section-bg1 {
-  background: #2D0A31;
+  background: #2d0a31;
 }
 
 /* line 41, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_color.scss */
@@ -50,26 +50,26 @@
 /* line 50, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_variables.scss */
 .boxed-btn {
   background: #fff;
-  color: #FF5E14 !important;
+  color: #ff5e14 !important;
   display: inline-block;
   padding: 18px 44px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #FF5E14;
+  border: 1px solid #ff5e14;
   letter-spacing: 3px;
   text-align: center;
-  color: #FF5E14;
+  color: #ff5e14;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 /* line 67, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_variables.scss */
 .boxed-btn:hover {
-  background: #FF5E14;
+  background: #ff5e14;
   color: #fff !important;
-  border: 1px solid #FF5E14;
+  border: 1px solid #ff5e14;
 }
 
 /* line 72, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_variables.scss */
@@ -132,7 +132,7 @@ h6 {
 /* line 25, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
 p {
   font-family: "Raleway", sans-serif;
-  color: #646D77;
+  color: #646d77;
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 15px;
@@ -212,7 +212,11 @@ button {
 }
 
 /* line 94, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
-button:focus, input:focus, input:focus, textarea, textarea:focus {
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
   outline: 0;
 }
 
@@ -221,9 +225,9 @@ button:focus, input:focus, input:focus, textarea, textarea:focus {
 /* line 99, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
 input:focus::-moz-placeholder {
   opacity: 0;
-  -webkit-transition: .4s;
-  -o-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
 }
 
 /* line 106, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
@@ -348,7 +352,7 @@ li {
   width: 40px !important;
   float: left;
   margin: 0px 5px;
-  border: 2px solid #FF5E14;
+  border: 2px solid #ff5e14;
   height: 3px;
   width: 33px;
   margin-right: 5px;
@@ -358,13 +362,13 @@ li {
 
 /* line 268, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
 .owl-carousel .owl-dots .owl-dot.active {
-  background: #FF5E14;
+  background: #ff5e14;
 }
 
 /* line 276, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
 .btn {
   border: none;
-  padding: 14px 34px  !important;
+  padding: 14px 34px !important;
   text-transform: uppercase !important;
   border-radius: 0px;
   font-size: 16px !important;
@@ -377,7 +381,7 @@ li {
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  background-image: linear-gradient(to left, #FF5E14, #e24e09, #FF5E14);
+  background-image: linear-gradient(to left, #ff5e14, #e24e09, #ff5e14);
   background-position: right;
   background-size: 200%;
 }
@@ -412,18 +416,25 @@ li {
   -o-transition: 0.4s;
   transition: 0.4s;
   background-position: left;
-  background-image: linear-gradient(to left, #FF5E14, #e24e09, #FF5E14) !important;
+  background-image: linear-gradient(
+    to left,
+    #ff5e14,
+    #e24e09,
+    #ff5e14
+  ) !important;
   color: #fff;
 }
 
 /* line 317, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
-.btn.focus, .btn:focus {
+.btn.focus,
+.btn:focus {
   outline: 0;
   box-shadow: none;
 }
 
 /* line 322, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
-.btn.focus, .btn:focus {
+.btn.focus,
+.btn:focus {
   outline: 0;
   box-shadow: none;
 }
@@ -432,7 +443,7 @@ li {
 
 /* line 330, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
 .browse-btn {
-  color: #FF5E14;
+  color: #ff5e14;
   font-weight: 500;
   font-size: 16px;
   position: relative;
@@ -444,7 +455,7 @@ li {
 .browse-btn::before {
   position: absolute;
   content: "";
-  background: #FF5E14;
+  background: #ff5e14;
   width: 100%;
   height: 2px;
   bottom: -11px;
@@ -452,7 +463,7 @@ li {
 
 /* line 345, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
 .browse-btn:hover {
-  color: #FF5E14;
+  color: #ff5e14;
   letter-spacing: 1px;
 }
 
@@ -483,7 +494,7 @@ li {
 /* line 382, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
 .header-btn2 {
   padding: 27px 50px !important;
-  background: #FF5E14;
+  background: #ff5e14;
   border-radius: 0;
   font-size: 18px;
   position: relative;
@@ -532,7 +543,7 @@ li {
 
 /* line 467, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
 .submit-btn {
-  background: #FF5E14;
+  background: #ff5e14;
   width: 100%;
   height: 50px;
   padding: 10px 20px;
@@ -548,7 +559,7 @@ li {
 
 /* line 482, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
 .submit-btn2 {
-  background: #FF5E14;
+  background: #ff5e14;
   width: 100%;
   height: 50px;
   padding: 10px 20px;
@@ -564,8 +575,8 @@ li {
 
 /* line 497, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
 .border-btn {
-  border: 1px solid #FF5E14;
-  color: #FF5E14;
+  border: 1px solid #ff5e14;
+  color: #ff5e14;
   background: none;
   text-transform: normal;
   padding: 13px 34px !important;
@@ -589,7 +600,7 @@ li {
 .border-btn i {
   font-size: 16px;
   margin-right: 10px;
-  color: #FF5E14;
+  color: #ff5e14;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -605,7 +616,7 @@ li {
   top: 0;
   width: 101%;
   height: 101%;
-  background: #FF5E14;
+  background: #ff5e14;
   z-index: -1;
   transition: transform 0.5s;
   transition-timing-function: ease;
@@ -633,8 +644,8 @@ li {
 
 /* scrollUp */
 /* line 582, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
- #back-top {
-  background: #FF5E14;
+#back-top {
+  background: #ff5e14;
   height: 50px;
   width: 50px;
   right: 31px;
@@ -651,13 +662,13 @@ li {
 
 @media (max-width: 575px) {
   /* line 582, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
-   #back-top {
+  #back-top {
     right: 16px;
   }
 }
 
 /* line 599, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
- #back-top a i {
+#back-top a i {
   display: block;
   line-height: 50px;
 }
@@ -1442,9 +1453,9 @@ li {
   right: 0;
   bottom: 0;
   z-index: 999999;
-  -webkit-transition: .6s;
-  -o-transition: .6s;
-  transition: .6s;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
   margin: 0 auto;
 }
 
@@ -1455,7 +1466,7 @@ li {
   position: relative;
   border-style: solid;
   border-width: 1px;
-  border-top-color: #FF5E14;
+  border-top-color: #ff5e14;
   border-bottom-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -1466,9 +1477,9 @@ li {
   background-color: #fff;
   -webkit-animation: zoom 2000ms infinite ease;
   animation: zoom 2000ms infinite ease;
-  -webkit-transition: .6s;
-  -o-transition: .6s;
-  transition: .6s;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
 }
 
 /* line 795, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
@@ -1487,9 +1498,9 @@ li {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   padding-top: 6px;
-  -webkit-transition: .6s;
-  -o-transition: .6s;
-  transition: .6s;
+  -webkit-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
 }
 
 /* line 816, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
@@ -1508,16 +1519,16 @@ li {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-transition: .6s;
-    -o-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
   }
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
-    -webkit-transition: .6s;
-    -o-transition: .6s;
-    transition: .6s;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
   }
 }
 
@@ -1567,7 +1578,7 @@ li {
 
 /* line 892, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
 .nice-select::placeholder {
-  color: #5E5E5E;
+  color: #5e5e5e;
   font-size: 16px;
   font-weight: 400;
 }
@@ -1811,7 +1822,7 @@ li {
 
 /* line 1104, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
 .section-tittle p {
-  color: #5E5E5E;
+  color: #5e5e5e;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
@@ -1824,7 +1835,7 @@ li {
 
 /* line 1113, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_common.scss */
 .section-tittle > span {
-  color: #140C40;
+  color: #140c40;
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 22px;
@@ -1917,7 +1928,7 @@ li {
 /*-------------   Color Variable  --------------*/
 /* line 38, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_color.scss */
 .section-bg1 {
-  background: #2D0A31;
+  background: #2d0a31;
 }
 
 /* line 41, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_color.scss */
@@ -2118,7 +2129,7 @@ li {
 
 /* line 113, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_headerMenu.scss */
 .header-info-left ul li i {
-  color: #FF5E14;
+  color: #ff5e14;
   font-size: 16px;
   padding-right: 10px;
 }
@@ -2160,7 +2171,7 @@ li {
 
 /* line 141, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_headerMenu.scss */
 .main-header .main-menu ul li a {
-  color: #140C40;
+  color: #140c40;
   font-weight: 600;
   padding: 28px 9px;
   display: block;
@@ -2198,7 +2209,7 @@ li {
   left: -5px;
   height: 3px;
   z-index: 1;
-  background: #FF5E14;
+  background: #ff5e14;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
@@ -2207,7 +2218,7 @@ li {
 
 /* line 172, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_headerMenu.scss */
 .main-header .main-menu ul li:hover > a {
-  color: #FF5E14;
+  color: #ff5e14;
 }
 
 /* line 175, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_headerMenu.scss */
@@ -2225,7 +2236,7 @@ li {
 .main-header .main-menu ul ul.submenu {
   position: absolute;
   width: 170px;
-  background: #FF5E14;
+  background: #ff5e14;
   left: 0;
   top: 90%;
   visibility: hidden;
@@ -2841,7 +2852,7 @@ li {
 
 /* line 23, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_about.scss */
 .support-company-area .right-caption .support-caption span {
-  color: #FF6162;
+  color: #ff6162;
   font-size: 25px;
   margin-bottom: 20px;
   display: block;
@@ -2860,7 +2871,7 @@ li {
 .support-company-area .right-caption .support-caption p {
   font-size: 18px;
   font-weight: 400;
-  color: #1A1A1A;
+  color: #1a1a1a;
   line-height: 1.8;
 }
 
@@ -2918,7 +2929,7 @@ li {
   display: block;
   font-weight: 700;
   margin-bottom: 30px;
-  color: #1F0F2D;
+  color: #1f0f2d;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2937,7 +2948,7 @@ li {
 
 /* line 25, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_contact-form.scss */
 .form-wrapper .form-tittle p {
-  color: #6E6575;
+  color: #6e6575;
   font-size: 14px;
   padding: 0 20px;
   line-height: 1.8;
@@ -2964,7 +2975,7 @@ li {
 
 /* line 48, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_contact-form.scss */
 .form-wrapper input::placeholder {
-  color: #6E6575;
+  color: #6e6575;
   font-size: 16px;
   font-weight: 400;
 }
@@ -3010,14 +3021,14 @@ li {
 
 /* line 82, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_contact-form.scss */
 .form-wrapper .nice-select::placeholder {
-  color: #5E5E5E;
+  color: #5e5e5e;
   font-size: 16px;
   font-weight: 400;
 }
 
 /* line 88, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_contact-form.scss */
 .form-wrapper textarea {
-  color: #5E5E5E;
+  color: #5e5e5e;
   font-size: 16px;
   font-weight: 400;
   border: 1px solid #eaeaea;
@@ -3051,7 +3062,7 @@ li {
 
 /* line 108, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_contact-form.scss */
 .form-wrapper textarea::placeholder {
-  color: #5E5E5E;
+  color: #5e5e5e;
   font-size: 16px;
 }
 
@@ -3094,15 +3105,15 @@ li {
   color: #071112;
   font-size: 16px;
   font-weight: 300;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 /* line 145, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_contact-form.scss */
 .form-wrapper input:focus::-webkit-input-placeholder {
   opacity: 0;
-  -webkit-transition: .4s;
-  -o-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
 }
 
 /* line 4, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_popular-item.scss */
@@ -3210,7 +3221,7 @@ li {
 .popular-item-area .wantToWork-area2 .wants-wrapper .wantToWork-caption p {
   font-size: 18px;
   margin-bottom: 0;
-  color: #5E5E5E;
+  color: #5e5e5e;
   margin-bottom: 20px;
 }
 
@@ -3288,7 +3299,7 @@ li {
 
 /* line 41, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_services_section.scss */
 .services-section .single-cat .cat-cap span {
-  color: #6785FF;
+  color: #6785ff;
   font-size: 46px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -3332,12 +3343,12 @@ li {
 
 /* line 66, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_services_section.scss */
 .services-section .single-cat .cat-cap h5 > a:hover {
-  color: #FF5E14;
+  color: #ff5e14;
 }
 
 /* line 71, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_services_section.scss */
 .services-section .single-cat .cat-cap p {
-  color: #5E5E5E;
+  color: #5e5e5e;
   font-size: 17px;
   line-height: 1.6;
   margin-bottom: 18px;
@@ -3489,7 +3500,7 @@ li {
 
 /* line 79, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_testimonial.scss */
 .testimonial-area2 {
-  background-color: #F8FAFC;
+  background-color: #f8fafc;
 }
 
 /* line 81, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_testimonial.scss */
@@ -3511,12 +3522,20 @@ li {
 }
 
 /* line 93, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_testimonial.scss */
-.testimonial-area2 .single-testimonial .testimonial-caption .testimonial-top-cap svg {
+.testimonial-area2
+  .single-testimonial
+  .testimonial-caption
+  .testimonial-top-cap
+  svg {
   margin-bottom: 17px;
 }
 
 /* line 96, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_testimonial.scss */
-.testimonial-area2 .single-testimonial .testimonial-caption .testimonial-top-cap p {
+.testimonial-area2
+  .single-testimonial
+  .testimonial-caption
+  .testimonial-top-cap
+  p {
   color: #000;
   font-weight: 500;
   line-height: 1.5;
@@ -3527,30 +3546,52 @@ li {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 96, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_testimonial.scss */
-  .testimonial-area2 .single-testimonial .testimonial-caption .testimonial-top-cap p {
+  .testimonial-area2
+    .single-testimonial
+    .testimonial-caption
+    .testimonial-top-cap
+    p {
     margin-bottom: 30px;
   }
 }
 
 @media (max-width: 575px) {
   /* line 96, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_testimonial.scss */
-  .testimonial-area2 .single-testimonial .testimonial-caption .testimonial-top-cap p {
+  .testimonial-area2
+    .single-testimonial
+    .testimonial-caption
+    .testimonial-top-cap
+    p {
     margin-bottom: 30px;
   }
 }
 
 /* line 117, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_testimonial.scss */
-.testimonial-area2 .single-testimonial .testimonial-caption .testimonial-founder .founder-text {
+.testimonial-area2
+  .single-testimonial
+  .testimonial-caption
+  .testimonial-founder
+  .founder-text {
   padding-left: 20px;
 }
 
 /* line 119, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_testimonial.scss */
-.testimonial-area2 .single-testimonial .testimonial-caption .testimonial-founder .founder-text span {
+.testimonial-area2
+  .single-testimonial
+  .testimonial-caption
+  .testimonial-founder
+  .founder-text
+  span {
   color: #000;
 }
 
 /* line 122, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_testimonial.scss */
-.testimonial-area2 .single-testimonial .testimonial-caption .testimonial-founder .founder-text p {
+.testimonial-area2
+  .single-testimonial
+  .testimonial-caption
+  .testimonial-founder
+  .founder-text
+  p {
   color: #677294;
   font-weight: 500;
   line-height: 1.5;
@@ -3559,7 +3600,7 @@ li {
 
 /* line 134, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_testimonial.scss */
 .testimonial-area2 .slick-slide {
-  opacity: .3;
+  opacity: 0.3;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
@@ -3573,7 +3614,7 @@ li {
 
 /* line 143, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_testimonial.scss */
 .testimonial-area2 .owl-item {
-  opacity: .3 !important;
+  opacity: 0.3 !important;
 }
 
 /* line 146, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_testimonial.scss */
@@ -3593,7 +3634,7 @@ li {
 
 /* line 156, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_testimonial.scss */
 .testimonial-area2 .owl-nav div {
-  background: #7BB22E;
+  background: #7bb22e;
   color: #fff;
   color: #000;
   height: 40px;
@@ -3699,7 +3740,7 @@ li {
 
 /* line 23, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_about.scss */
 .support-company-area .right-caption .support-caption span {
-  color: #FF6162;
+  color: #ff6162;
   font-size: 25px;
   margin-bottom: 20px;
   display: block;
@@ -3718,7 +3759,7 @@ li {
 .support-company-area .right-caption .support-caption p {
   font-size: 18px;
   font-weight: 400;
-  color: #1A1A1A;
+  color: #1a1a1a;
   line-height: 1.8;
 }
 
@@ -3756,7 +3797,7 @@ li {
 .wantToWork-area .wantToWork-caption p {
   font-size: 18px;
   margin-bottom: 0;
-  color: #DEDEDE;
+  color: #dedede;
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -3803,12 +3844,12 @@ li {
 /* line 2, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_footer.scss */
 .footer-wrapper {
   position: relative;
-  background: #F5F6F7;
+  background: #f5f6f7;
 }
 
 /* line 8, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_footer.scss */
 .footer-area .footer-pera p {
-  color: #5E5E5E;
+  color: #5e5e5e;
   font-size: 16px;
   margin-bottom: 21px;
   line-height: 1.8;
@@ -3818,7 +3859,7 @@ li {
 
 /* line 19, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_footer.scss */
 .footer-area .footer-tittle h4 {
-  color: #1A1A1A;
+  color: #1a1a1a;
   font-size: 20px;
   margin-bottom: 40px;
   font-weight: 600;
@@ -3831,7 +3872,7 @@ li {
 
 /* line 28, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_footer.scss */
 .footer-area .footer-tittle ul li a {
-  color: #5E5E5E;
+  color: #5e5e5e;
   font-weight: 300;
   font-size: 16px;
   text-decoration: underline transparent;
@@ -3839,7 +3880,7 @@ li {
 
 /* line 33, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_footer.scss */
 .footer-area .footer-tittle ul li a:hover {
-  color: #5E5E5E;
+  color: #5e5e5e;
   text-decoration: underline;
 }
 
@@ -3850,7 +3891,7 @@ li {
 
 /* line 44, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_footer.scss */
 .footer-area .footer-tittle p {
-  color: #5E5E5E;
+  color: #5e5e5e;
   font-size: 16px;
 }
 
@@ -3869,16 +3910,16 @@ li {
   width: 100%;
   height: 43px;
   padding: 10px 20px;
-  border: 1px solid #FF5E14;
+  border: 1px solid #ff5e14;
   border-radius: 0px;
   background: none;
-  color: #5E5E5E;
+  color: #5e5e5e;
   background: #fff;
 }
 
 /* line 62, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_footer.scss */
 .footer-area .footer-form form input::placeholder {
-  color: #5E5E5E;
+  color: #5e5e5e;
   font-size: 16px;
 }
 
@@ -3897,7 +3938,7 @@ li {
 
 /* line 83, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_footer.scss */
 .footer-area .info.error {
-  color: #FF5E14;
+  color: #ff5e14;
 }
 
 /* line 91, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_footer.scss */
@@ -3929,7 +3970,7 @@ li {
 
 /* line 106, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_footer.scss */
 .footer-bottom-area .footer-copy-right p {
-  color: #5E5E5E;
+  color: #5e5e5e;
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
@@ -3937,17 +3978,17 @@ li {
 
 /* line 111, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_footer.scss */
 .footer-bottom-area .footer-copy-right p i {
-  color: #FF5E14;
+  color: #ff5e14;
 }
 
 /* line 114, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_footer.scss */
 .footer-bottom-area .footer-copy-right p a {
-  color: #FF5E14;
+  color: #ff5e14;
 }
 
 /* line 126, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_footer.scss */
 .footer-social a {
-  color: #DEDEDE;
+  color: #dedede;
   font-size: 22px;
   display: inline-block;
   text-align: center;
@@ -3967,7 +4008,7 @@ li {
 
 /* line 139, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_footer.scss */
 .footer-social a:hover {
-  color: #FF5E14;
+  color: #ff5e14;
 }
 
 /* line 141, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_footer.scss */
@@ -3979,7 +4020,7 @@ li {
 .number a {
   font-family: "Raleway", sans-serif;
   font-size: 24px !important;
-  color: #1A1A1A !important;
+  color: #1a1a1a !important;
   margin-bottom: 0px;
   font-weight: 700 !important;
   display: block;
@@ -3996,7 +4037,7 @@ li {
 .number2 a {
   font-family: "Raleway", sans-serif;
   font-size: 14px !important;
-  color: #1A1A1A !important;
+  color: #1a1a1a !important;
   margin-bottom: 5px;
   display: block;
 }
@@ -4060,16 +4101,17 @@ li {
 .blog_area a {
   color: "Raleway", sans-serif !important;
   text-decoration: none;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 /* line 106, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_blog_page.scss */
-.blog_area a:hover, .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #FF5E14 0%, #FF5E14 99%);
+.blog_area a:hover,
+.blog_area a :hover {
+  background: -webkit-linear-gradient(131deg, #ff5e14 0%, #ff5e14 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 /* line 116, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_blog_page.scss */
@@ -4255,7 +4297,7 @@ li {
 
 /* line 636, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_blog_page.scss */
 .blog_details a:hover {
-  color: #FF5E14;
+  color: #ff5e14;
 }
 
 /* line 641, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_blog_page.scss */
@@ -4323,7 +4365,7 @@ li {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #FF5E14;
+  background-color: #ff5e14;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -4418,7 +4460,7 @@ li {
 
 /* line 786, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_blog_page.scss */
 .blog_right_sidebar .search_widget .input-group button {
-  background: #FF5E14;
+  background: #ff5e14;
   border-left: 0;
   border: 1px solid #f0e9ff;
   padding: 4px 15px;
@@ -4556,7 +4598,7 @@ li {
 
 /* line 937, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_blog_page.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #FF5E14;
+  background: #ff5e14;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -4780,7 +4822,7 @@ li {
 
 /* line 1303, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_blog_page.scss */
 .single-post-area .blog-author a:hover {
-  color: #FF5E14;
+  color: #ff5e14;
 }
 
 /* line 1308, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_blog_page.scss */
@@ -4848,7 +4890,7 @@ li {
 
 /* line 1359, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_blog_page.scss */
 .single-post-area .navigation-area .nav-left:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 767px) {
@@ -4894,7 +4936,7 @@ li {
 
 /* line 1394, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_blog_page.scss */
 .single-post-area .navigation-area .nav-right:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 991px) {
@@ -5120,7 +5162,8 @@ li {
 }
 
 /* line 16, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_contact.scss */
-.contact-info__icon i, .contact-info__icon span {
+.contact-info__icon i,
+.contact-info__icon span {
   color: #8f9195;
   font-size: 27px;
 }
@@ -5218,7 +5261,7 @@ li {
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 133, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_contact.scss */
   .contact-section {
-    padding: 80px 0 50px;
+    padding: 80px 0 5px;
   }
 }
 
@@ -5299,7 +5342,7 @@ li {
   z-index: 1042;
   overflow: hidden;
   position: fixed;
-  background: #4A3600;
+  background: #4a3600;
   opacity: 0.6;
 }
 
@@ -5388,7 +5431,7 @@ del {
   outline: none;
   line-height: 40px;
   padding: 0 30px;
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
   text-decoration: none;
   font-weight: 500;
@@ -6217,7 +6260,8 @@ del {
 
 /* line 766, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_elements.scss */
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6259,7 +6303,8 @@ del {
 
 /* line 803, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_elements.scss */
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../img/elements/success-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6307,7 +6352,8 @@ del {
 
 /* line 844, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_elements.scss */
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6349,7 +6395,8 @@ del {
 
 /* line 881, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_elements.scss */
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6391,7 +6438,8 @@ del {
 
 /* line 918, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_elements.scss */
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/success-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6439,7 +6487,8 @@ del {
 
 /* line 959, C:/Users/HP/Desktop/October-2020/312.Construction/Construction_Template/assets/scss/_elements.scss */
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -6595,19 +6644,19 @@ del {
 
 /*# sourceMappingURL=style.css.map */
 /* service-page */
-.pb-60{
+.pb-60 {
   padding-bottom: 60px;
 }
 
-.mb-10{
+.mb-10 {
   margin-bottom: 10px;
 }
 
-.pt-20{
+.pt-20 {
   padding-top: 20px;
 }
 
-.pb-20{
+.pb-20 {
   padding-bottom: 20px;
 }
 
@@ -6622,7 +6671,7 @@ del {
 
 .single-offered:hover {
   cursor: pointer;
-  background-color: #FF5E14;
+  background-color: #ff5e14;
 }
 
 .single-offered:hover p {
@@ -6657,7 +6706,7 @@ del {
 
 .single-offered:hover {
   cursor: pointer;
-  background-color: rgba(255,94,20,0.7);
+  background-color: rgba(255, 94, 20, 0.7);
 }
 
 .single-offered:hover p {
@@ -6665,8 +6714,8 @@ del {
 }
 
 .single-offered h4 {
-    font-weight: bold;
-    font-size: 18px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 @media (max-width: 800px) {
@@ -6683,7 +6732,7 @@ del {
 }
 
 .facts-area {
-  background-color: rgb(255,94,20);
+  background-color: rgb(255, 94, 20);
 }
 
 .single-fact h1 {
@@ -6716,7 +6765,7 @@ del {
 .single-service:hover {
   box-shadow: -14.142px 14.142px 20px 0px rgba(157, 157, 157, 0.5);
   cursor: pointer;
-  background-color: rgba(255,94,20,0.7);
+  background-color: rgba(255, 94, 20, 0.7);
 }
 
 .single-service:hover p {
@@ -6745,7 +6794,7 @@ del {
   }
 }
 
-.single-fact{
+.single-fact {
   text-align: center !important;
   margin: 5px !important;
   padding: 5px !important;
